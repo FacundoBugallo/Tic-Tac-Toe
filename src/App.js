@@ -37,16 +37,16 @@ const App = () => {
       const [a,b,c] = winningPositions[i];
       if(newSquares[a] && newSquares[a] === newSquares[b] && newSquares[a] === newSquares[c] ){
         endGame(newSquares[a],winningPositions[i])
-        //winer
+    //winer
         return
+      }
     }
-  }
-  if(!newSquares.includes(null)){
-    endGame(null, Array.from(Array(10).keys))
+      if(!newSquares.includes(null)){
+        endGame(null, Array.from(Array(10).keys))
     //loser
-    return
-  }
-    setTurn(turn === "X" ? "O" : "X")
+        return
+      }
+        setTurn(turn === "X" ? "O" : "X")
   }
 
   const handleClick = square =>{
