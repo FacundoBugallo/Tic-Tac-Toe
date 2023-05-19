@@ -12,9 +12,9 @@
   font-size: 2em;
   padding: 5px;
   font-weight: bold;
-  background-color: rgb(78, 115, 185);
+  background-color: rgb(214, 72, 47);
 }
 
 .score-board div:first-child{
-  background-color: rgb(214, 72, 47);
+  background-color: rgb(78, 115, 185);
 }

@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import './App.css';
 import Board from './componetns/Board/Board';
-import Square from './componetns/Square/Square';
 import ScoreBoard from './componetns/ScoreBoard/ScoreBoard';
 
 const winningPositions = [
